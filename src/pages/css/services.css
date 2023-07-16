@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.containerimage {
+  height: 100vh;
+
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#div1 {
+  background-image: url("../../assets/wedding_choerogrphy.jpg");
+}
+
+#div2 {
+  background-image: url("../../assets/Bollywod_dance.jpg");
+}
+
+#div3 {
+  background-image: url("../../assets/firness.jpg");
+}
+#div4 {
+  background-image: url("../../assets/Studio_for_rent.JPG");
+}
+#div5 {
+  background-image: url("../../assets/Studio_for_rent.JPG");
+}
+
+.blackbox {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 8);
+  position: absolute;
+  top: -20%;
+}
+.blackbox h1 {
+  color: #e0e0e0;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.blackbox p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.blackbox button {
+  background-color: none;
+  background: none;
+  border: none;
+  border-bottom: 2px dotted white;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.blackbox button:hover {
+  color: #e84524;
+  border-bottom: 2px dotted #e84524;
+  cursor: pointer;
+}
+
+.inner_text {
+  width: 50%;
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.traingle {
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top: 30%;
+}
+.black-svg {
+  width: 100%;
+  height: 120px;
+}
+.bottomtraingle {
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  bottom: 27%;
+}
+.bottom {
+  transform: rotateX(180deg);
+  /* bottom: 40% !important; */
+}
+
+@media screen and (max-width: 768px) {
+  .blackbox p {
+    font-size: 1.1rem;
+  }
+  .blackbox button {
+    background-color: none;
+    background: none;
+    border: none;
+    border-bottom: 2px dotted white;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .bottomtraingle {
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 32%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .blackbox p {
+    font-size: 0.7rem;
+  }
+  .blackbox button {
+    background-color: none;
+    background: none;
+    border: none;
+    border-bottom: 2px dotted white;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .bottomtraingle {
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 32.5%;
+  }
+}
