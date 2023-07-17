@@ -14,6 +14,7 @@ const Blogs = () => {
         <>
             <Navbar />
             <div className='blogs'>
+                <h1 className='HeadAbout'>Blogs</h1>
                 <section class="blog-card">
                     <img src={img1} alt="Blog 3" />
                     <h2>Private dance classes</h2>

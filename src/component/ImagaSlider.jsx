@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-////////////////////
 import 'swiper/css';
 import 'swiper/css/navigation';
+
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-///////////////////////////
-import aboutImg1 from "../assets/Nabout1.jpg"
-import aboutImg2 from "../assets/Nabout2.jpg"
-/////////////////////
-// import SwiperCore, { Navigation, Autoplay } from 'swiper';
-// SwiperCore.use([Navigation, Autoplay]);
-// import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import aboutImg1 from "../assets/Nabout1.jpg";
+import aboutImg2 from "../assets/Nabout2.jpg";
+// import SwiperCore, { Navigation } from 'swiper';
+
+// SwiperCore.use([Navigation]);
 
 const ImageSlider = () => {
     const [slidesPerView, setSlidesPerView] = useState(3); // Default value for larger screens
@@ -33,18 +31,16 @@ const ImageSlider = () => {
             window.removeEventListener('resize', updateSlidesPerView);
         };
     }, []);
+
     return (
         <div>
             <Swiper
-                // modules={[Navigation, Pagination, Scrollbar, A11y]}
                 slidesPerView={slidesPerView}
-            // spaceBetween={20}
-            // navigation
-            // scrollbar={{ draggable: true }}
-            // autoplay={{
-            //     delay: 1000, // Delay between slides (in milliseconds)
-            //     disableOnInteraction: false, // Allow user interaction to interrupt autoplay
-            // }}
+                spaceBetween={20}
+                navigation={{
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }}
             >
                 <SwiperSlide>
                     <div className='slide'>
@@ -92,7 +88,6 @@ const ImageSlider = () => {
                     </div>
                 </SwiperSlide>
             </Swiper>
-
         </div>
     );
 };

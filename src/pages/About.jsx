@@ -6,11 +6,12 @@ import aboutImg2 from "../assets/Nabout2.jpg"
 import { Link } from 'react-router-dom'
 import ImageSlider from '../component/ImagaSlider'
 import NavScrollExample from '../component/NavNew';
+import Navbar from '../component/Nav';
 
 const About = () => {
     return (
         <>
-            <NavScrollExample />
+            <Navbar />
             {/* <div className='videoBanner'>
                 <iframe
                     width="100%"
@@ -102,7 +103,7 @@ const About = () => {
                 <h1 className='HeadAbout'>MEET THE TEAM</h1>
                 <div class="slider-container">
 
-                    {/* <ImageSlider /> */}
+                    <ImageSlider />
 
                 </div>
             </div>

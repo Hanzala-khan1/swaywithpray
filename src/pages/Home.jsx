@@ -12,6 +12,7 @@ const Home = () => {
         Setanimation(true)
         setTimeout(() => {
             navigate('/About');
+            Setanimation(false)
         }, 2000);
 
     };
@@ -20,32 +21,37 @@ const Home = () => {
         <>
             <div className={`main ${animation ? "animation-div" : ""}`} >
                 <div className="headingMain">
-                    {/* <div className="headsway">SWAY WITH
-                        <br></br>
-                        <span className='pray'>PRAY</span>
-                    </div> */}
-                    <img src={logo} alt='Sway with Pray Logo'
-                        style={{
-                            width: "168px",
-                            height: "250px",
-                            marginRight: "1rem",
-                            // dropShadow: "5px 5px 10px black"
-                        }} />
+                    <div className='Appname'>
+                        <h1>SWAY WITH PRAY</h1>
+                        <div className='App_desc'>
+                            <span>Bollywood Dance</span>
+                            <span>Coreagrapher</span>
+                            <span>Educator</span>
+                        </div>
+                    </div>
+
+
+                    <button className="Explore" onClick={handleExploreClick}>
+                        Let's Explore
+                    </button>
+
                 </div>
                 <div className="startButton">
-                    <div className="Explore" onClick={handleExploreClick}>
-                        Learn More
-                    </div>
-                    <div className="icon">
-                        <a href='https://web.facebook.com/swaywithpray/?_rdc=1&_rdr' target="_blank">
-                            <FontAwesomeIcon icon={faFacebook} className='iconsfonthome' />
-                        </a>
-                        <a href='https://www.instagram.com/swaywithpray/?hl=en' target="_blank">
-                            <FontAwesomeIcon icon={faInstagram} className='iconsfonthome' />
-                        </a>
-                        <a href='https://www.youtube.com/channel/UC04eJMg0UhmhrvXfiXyvW5g' target="_blank">
-                            <FontAwesomeIcon icon={faYoutube} className='iconsfonthome' />
-                        </a>
+                    <div className='innernew'>
+                        <img src={logo}
+                            alt='Sway with Pray Logo'
+                            className='imageHome' />
+                        <div className="icon">
+                            <a href='https://web.facebook.com/swaywithpray/?_rdc=1&_rdr' target="_blank">
+                                <FontAwesomeIcon icon={faFacebook} className='iconsfonthome' />
+                            </a>
+                            <a href='https://www.instagram.com/swaywithpray/?hl=en' target="_blank">
+                                <FontAwesomeIcon icon={faInstagram} className='iconsfonthome' />
+                            </a>
+                            <a href='https://www.youtube.com/channel/UC04eJMg0UhmhrvXfiXyvW5g' target="_blank">
+                                <FontAwesomeIcon icon={faYoutube} className='iconsfonthome' />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

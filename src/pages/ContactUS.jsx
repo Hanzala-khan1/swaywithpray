@@ -15,7 +15,7 @@ const ContactUS = () => {
 
     return (
         <div>
-            <NavScrollExample />
+            <Navbar />
 
             <div className="container">
                 <div className="contact-section">

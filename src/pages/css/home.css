@@ -1,17 +1,14 @@
 .main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh; /* Changed height to min-height for responsiveness */
   background: url("../../assets/Nhome.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition: transform 0.5s ease-in-out;
-}
-.main {
-  display: flex;
+  display: flex; /* Added display flex to enable flexbox properties */
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
   color: white;
 }
 .animation-div {
@@ -31,59 +28,153 @@
     right: calc(100%);
   }
 }
-
 .headingMain {
-  font-size: 24px;
-  height: 90vh;
+  /* font-size: 24px; */
+  height: 20vh;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   margin-bottom: 20px;
-  align-items: flex-end;
-  /* padding-right: -1rem; */
-}
-.headsway {
+  padding: 0px 3rem;
+  padding-top: 3rem;
   color: #e84524;
-  margin-right: 2rem;
+}
+.Appname h1 {
+  font-size: 40px;
+  color: white;
   font-weight: 900;
-  font-size: 2.5rem;
+}
+.App_desc span {
+  font-size: 18px;
+  color: white;
+  border-right: 2px solid rgb(255, 255, 255);
+  padding: 0.6rem;
 }
 
 .startButton {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: end;
   margin-bottom: 2rem;
   padding: 0rem 2rem;
-  /* padding-bottom: 2rem; */
-}
-.pray {
-  color: #e84524;
-  font-size: 5.5rem;
 }
 
 .startButton > div:last-child {
   display: flex;
+  flex-wrap: wrap; /* Added flex-wrap to allow the items to wrap on smaller screens */
   gap: 10px;
 }
+
 .Explore {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  padding: 1rem 2rem;
   background-color: #e84524;
   color: rgb(235, 234, 234);
   border-radius: 50px;
+  text-align: center;
+  height: 3.6rem;
+  width: 12rem;
 }
-.icon {
-  font-size: large;
+
+.innernew {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items in the column */
+  padding: 0 1rem; /* Added padding for spacing */
 }
-.iconsfonthome {
-  font-size: 2rem;
-  color: white;
-  margin-left: 1rem;
-  padding-bottom: 1rem;
+
+.imageHome {
+  width: 168px; /* Removed quotes from width and height values */
+  height: 250px;
+  margin-right: 1rem;
 }
-.iconsfonthome:hover {
-  font-size: 2rem;
-  color: #e84524;
+.subBox {
+  width: 5rem !important;
+}
+/* Media queries for small and medium screens */
+
+@media (max-width: 768px) {
+  .Appname h1 {
+    font-size: 33px;
+    color: white;
+    font-weight: 900;
+  }
+  .App_desc span {
+    font-size: 15px;
+    color: white;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 0.6rem;
+  }
+
+  .Explore {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #e84524;
+    color: rgb(235, 234, 234);
+    border-radius: 50px;
+    text-align: center;
+    height: 3.3rem;
+    width: 10rem;
+  }
+
+  .innernew img {
+    width: 125px; /* Removed quotes from width and height values */
+    height: 160px;
+    margin-right: 1rem;
+  }
+  .icon a {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .headingMain {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0px 2rem;
+    padding-top: 3rem;
+  }
+  .Appname h1 {
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+  }
+  .App_desc span {
+    font-size: 14px;
+    color: white;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 0.4rem;
+  }
+
+  .startButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0rem 2rem;
+  }
+
+  .startButton > div:last-child {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap to allow the items to wrap on smaller screens */
+    gap: 10px;
+  }
+
+  .Explore {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #e84524;
+    color: rgb(235, 234, 234);
+    border-radius: 50px;
+    text-align: center;
+    height: 3rem;
+    width: 10rem;
+  }
 }

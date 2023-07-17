@@ -8,6 +8,7 @@ import ContactUS from './pages/ContactUS';
 import Gallery from './pages/gallery';
 import Blogs from './pages/Blogs';
 import Portfolio from './pages/Portfolio';
+import Testnomials from './pages/Testonomial';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/contact-us' element={<ContactUS />}></Route>
           <Route path='/Gallery' element={<Gallery />}></Route>
           <Route path='/blogs' element={<Blogs />}></Route>
+          <Route path='/testnomials' element={<Testnomials />}></Route>
           {/* <Route path='/portfolio' element={<Portfolio />}></Route> */}
         </Routes>
       </BrowserRouter>

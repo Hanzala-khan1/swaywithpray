@@ -16,8 +16,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-logo">
-                <Link to="/"> <img src={logo} alt="Logo" /></Link>
-                {/* <img src={logo} alt="Logo" /> */}
+                <img src={logo} alt="Logo" />
             </div>
             <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
                 <ul>
@@ -27,7 +26,7 @@ const Navbar = () => {
                     <li>
                         <Link to="/about">About</Link>
                     </li>
-                    <li>
+                    <li className='dd-menu'>
                         <Link to="/services">Services</Link>
                         {/* Add the dropdown menu */}
                         <ul className='dropdown'>
@@ -45,20 +44,20 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider" /></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    {/* <li>
+                        <Link to="/gallery">Gallery</Link>
+                    </li> */}
+                    <li className='dd-menu'>
+                        <Link to="/gallery">Portfolio</Link>
+                        <ul className='dropdown'>
+                            <li>
+                                <Link to="/blogs">Blogs</Link>
+                            </li>
+                            <li>
+                                <Link to="/testnomials">Testimonials</Link>
+                            </li>
                         </ul>
                     </li>
-                    {/* <li>
-                        <Link to="/portfolio">Portfolio</Link>
-                    </li> */}
                     {/* <li>
                         <Link to="/blogs">Blogs</Link>
                     </li> */}

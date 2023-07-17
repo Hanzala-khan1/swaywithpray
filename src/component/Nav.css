@@ -87,10 +87,13 @@
 
 /* Rest of the CSS code remains the same as before */
 
+.dd-menu {
+  position: relative;
+}
 .dropdown {
   display: none !important;
   position: absolute;
-  top: 60%;
+  top: 100%;
   left: 35%;
   background: #f2efe9;
   padding: 10px;

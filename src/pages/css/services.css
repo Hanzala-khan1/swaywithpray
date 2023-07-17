@@ -42,16 +42,18 @@ body {
   position: absolute;
   top: -20%;
 }
-.blackbox h1 {
-  color: #e0e0e0;
+.inner_text h1 {
   font-weight: 800;
-  margin-bottom: 15px;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
 }
-.blackbox p {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
+.inner_text p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
 }
-.blackbox button {
+.blackbox a {
+  text-decoration: none;
   background-color: none;
   background: none;
   border: none;
@@ -60,14 +62,14 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
-.blackbox button:hover {
+.blackbox a:hover {
   color: #e84524;
   border-bottom: 2px dotted #e84524;
   cursor: pointer;
 }
 
 .inner_text {
-  width: 50%;
+  width: 60%;
   height: 30vh;
   color: white;
   display: flex;
@@ -83,7 +85,7 @@ body {
 }
 .black-svg {
   width: 100%;
-  height: 120px;
+  height: 90px;
 }
 .bottomtraingle {
   width: 100vw;
@@ -93,46 +95,85 @@ body {
 }
 .bottom {
   transform: rotateX(180deg);
-  /* bottom: 40% !important; */
+  bottom: 40% !important;
+}
+@media (max-width: 1024px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  .inner_text p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+  .inner_text {
+    width: 60%;
+  }
+  .black-svg {
+    width: 100%;
+    height: 90px;
+  }
 }
 
-@media screen and (max-width: 768px) {
-  .blackbox p {
-    font-size: 1.1rem;
+@media (max-width: 768px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
   }
-  .blackbox button {
-    background-color: none;
-    background: none;
-    border: none;
-    border-bottom: 2px dotted white;
-    color: white;
+  .inner_text p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  .blackbox a {
     font-size: 1.2rem;
     font-weight: 500;
   }
-  .bottomtraingle {
-    width: 100vw;
-    height: 10vh;
-    position: absolute;
-    bottom: 32%;
+
+  .inner_text {
+    width: 60%;
+    height: 30vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .black-svg {
+    width: 100%;
+    height: 90px;
   }
 }
-@media screen and (max-width: 425px) {
-  .blackbox p {
-    font-size: 0.7rem;
+@media (max-width: 500px) {
+  .inner_text h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
   }
-  .blackbox button {
-    background-color: none;
-    background: none;
-    border: none;
-    border-bottom: 2px dotted white;
-    color: white;
+  .inner_text p {
+    font-size: 0.8rem;
+    margin-bottom: 12px;
+  }
+  .blackbox a {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
   }
-  .bottomtraingle {
-    width: 100vw;
-    height: 10vh;
-    position: absolute;
-    bottom: 32.5%;
+
+  .inner_text {
+    width: 70%;
+    height: 30vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .black-svg {
+    width: 100%;
+    height: 90px;
   }
 }
