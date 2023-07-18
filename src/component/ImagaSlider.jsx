@@ -37,10 +37,6 @@ const ImageSlider = () => {
             <Swiper
                 slidesPerView={slidesPerView}
                 spaceBetween={20}
-                navigation={{
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                }}
             >
                 <SwiperSlide>
                     <div className='slide'>
