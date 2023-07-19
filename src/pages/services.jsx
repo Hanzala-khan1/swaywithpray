@@ -37,14 +37,14 @@ const Services = () => {
             <div class="containerimage" id="div1">
                 <div className='bottomtraingle'>
                     <svg class="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <polygon points="0,100 0,0 100,0" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
             </div>
             <div class="containerimage" id="div2">
                 <div className='traingle'>
                     <svg class="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="none">
-                        <polygon points="100,0 0,0 100,100" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="100,0 0,0 100,100" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
                 <div className='blackbox'>
@@ -63,14 +63,14 @@ const Services = () => {
                 </div>
                 <div className='bottomtraingle'>
                     <svg class="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <polygon points="0,100 0,0 100,0" fill="rgb(8, 8, 8)" ></polygon>
+                        <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.9)" ></polygon>
                     </svg>
                 </div>
             </div >
             <div class="containerimage" id="div3">
                 <div className='traingle'>
                     <svg class="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="none">
-                        <polygon points="100,0 0,0 100,100" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="100,0 0,0 100,100" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
                 <div className='blackbox'>
@@ -89,14 +89,14 @@ const Services = () => {
                 </div>
                 <div className='bottomtraingle'>
                     <svg class="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <polygon points="0,100 0,0 100,0" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
             </div>
             <div class="containerimage" id="div4">
                 <div className='traingle'>
                     <svg class="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="none">
-                        <polygon points="100,0 0,0 100,100" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="100,0 0,0 100,100" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
                 <div className='blackbox'>
@@ -115,14 +115,14 @@ const Services = () => {
                 </div>
                 <div className='bottomtraingle'>
                     <svg class="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <polygon points="0,100 0,0 100,0" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
             </div>
             <div class="containerimage" id="div5">
                 <div className='traingle'>
                     <svg class="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="none">
-                        <polygon points="100,0 0,0 100,100" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="100,0 0,0 100,100" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
                 <div className='blackbox'>
@@ -160,7 +160,7 @@ const Services = () => {
                 </div>
                 <div className='bottomtraingle'>
                     <svg class="bottom black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <polygon points="0,100 0,0 100,0" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="0,100 0,0 100,0" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
             </div>
@@ -169,7 +169,7 @@ const Services = () => {
             <div class="containerimage" id="div5">
                 <div className='traingle'>
                     <svg class="top black-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="none">
-                        <polygon points="100,0 0,0 100,100" fill="rgb(8, 8, 8)"></polygon>
+                        <polygon points="100,0 0,0 100,100" fill="rgba(8, 8, 8, 0.9)"></polygon>
                     </svg>
                 </div>
                 <div className='blackbox'>

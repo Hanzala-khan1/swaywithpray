@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useLocation } from 'react-router-dom';
 import './Nav.css';
 import logo from "../assets/logo2.png"
 import { Link } from 'react-router-dom';
@@ -12,6 +13,7 @@ const Navbar = () => {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    const location = useLocation();
 
     return (
         <nav className="navbar">
@@ -20,13 +22,13 @@ const Navbar = () => {
             </div>
             <div className={`navbar-menu ${menuOpen ? 'open' : ''}`}>
                 <ul>
-                    <li>
+                    <li className={location.pathname === '/' ? 'active' : ''}>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className={location.pathname === '/about' ? 'active' : ''}>
                         <Link to="/about">About</Link>
                     </li>
-                    <li className='dd-menu'>
+                    <li className={`dd-menu ${location.pathname === '/services' ? 'active' : ''}`} >
                         <Link to="/services">Services</Link>
                         {/* Add the dropdown menu */}
                         <ul className='dropdown'>
@@ -47,7 +49,7 @@ const Navbar = () => {
                     {/* <li>
                         <Link to="/gallery">Gallery</Link>
                     </li> */}
-                    <li className='dd-menu'>
+                    <li className={`dd-menu ${location.pathname === ('/gallery' || "/blogs" || "/testnomials") ? 'active' : ''}`} >
                         <Link to="/gallery">Portfolio</Link>
                         <ul className='dropdown'>
                             <li>
@@ -61,7 +63,7 @@ const Navbar = () => {
                     {/* <li>
                         <Link to="/blogs">Blogs</Link>
                     </li> */}
-                    <li>
+                    <li className={location.pathname === '/contact-us' ? 'active' : ''}>
                         <Link to="/contact-us">Contact</Link>
                     </li>
                 </ul>

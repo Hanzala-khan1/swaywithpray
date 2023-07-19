@@ -26,11 +26,17 @@
   color: #e84524;
   position: relative;
   font-size: 1.3rem;
-  font-family: "Spirax", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-menu ul li a:hover {
-  text-decoration: underline;
+  border-bottom: 4px solid #e84524;
+}
+.navbar-menu ul li.active a {
+  border-bottom: 4px solid #e84524;
+}
+.navbar-menu ul li.dd-menu.active > a {
+  border-bottom: 4px solid #e84524 !important;
 }
 
 .navbar-menu-button {
@@ -100,6 +106,7 @@
   z-index: 8888888;
   box-shadow: 1px 1px 10px 0px #000;
   flex-direction: column !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Add a hover selector for the "Services" link */

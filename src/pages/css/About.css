@@ -50,11 +50,14 @@
 /* /////////////////////////////////////////////////////////////////// */
 .slider-container {
   width: 100%;
-  height: 80vh;
+  height: 100%;
 }
 .slide {
   width: 100%;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slide img {
   width: 90%;
@@ -73,7 +76,14 @@
 .slide:hover {
   color: #00adae;
 }
-
+.inner-slide {
+  width: 80%;
+  height: 62%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @media (max-width: 768px) {
   .AboutMain {
     width: 100%;

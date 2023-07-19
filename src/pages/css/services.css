@@ -38,7 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(8, 8, 8, 0.9);
   position: absolute;
   top: -20%;
 }

@@ -103,7 +103,7 @@ const About = () => {
                 <h1 className='HeadAbout'>MEET THE TEAM</h1>
                 <div class="slider-container">
 
-                    {/* <ImageSlider /> */}
+                    <ImageSlider />
 
                 </div>
             </div>

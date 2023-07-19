@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import aboutImg1 from "../assets/Nabout1.jpg";
 import aboutImg2 from "../assets/Nabout2.jpg";
-// import SwiperCore, { Navigation } from 'swiper';
-
-// SwiperCore.use([Navigation]);
 
 const ImageSlider = () => {
     const [slidesPerView, setSlidesPerView] = useState(3); // Default value for larger screens
@@ -35,54 +33,80 @@ const ImageSlider = () => {
     return (
         <div>
             <Swiper
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={0}
                 slidesPerView={slidesPerView}
-                spaceBetween={20}
+                navigation
+                pagination={{ clickable: true }}
+                style={{ padding: "1rem 2rem" }}
             >
                 <SwiperSlide>
                     <div className='slide'>
-                        <img src={aboutImg1} alt="Image 1" />
-                        <div className='team-info'>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='slide'>
-                        <img src={aboutImg1} alt="Image 1" />
-                        <div className='team-info'>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='slide'>
-                        <img src={aboutImg1} alt="Image 1" />
-                        <div className='team-info'>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='slide'>
-                        <img src={aboutImg1} alt="Image 1" />
-                        <div className='team-info'>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='slide'>
-                        <img src={aboutImg1} alt="Image 1" />
-                        <div className='team-info'>
-                            <h3 className="title">Williamson</h3>
-                            <span className="post">Web Developer</span>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide'>
+                        <div className='inner-slide'>
+                            <img src={aboutImg1} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Williamson</h3>
+                                <span className="post">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
             </Swiper>
         </div>
     );
