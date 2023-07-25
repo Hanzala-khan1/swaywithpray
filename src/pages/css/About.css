@@ -39,7 +39,7 @@
   justify-content: space-around;
 }
 .ImgDiv {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -49,11 +49,12 @@
   /* height: 80vh; */
 }
 .paraDiv {
-  width: 55%;
+  width: 65%;
 }
 .paraDiv p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
+  /* word-spacing: 10px; */
 }
 .AboutButton {
   /* width: 100%; */
@@ -135,7 +136,7 @@
     margin-bottom: 1.5rem;
   }
   .paraDiv p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
   }
 }

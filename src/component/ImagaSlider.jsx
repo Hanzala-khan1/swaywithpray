@@ -14,6 +14,7 @@ import Julie from "../assets/Julie.jpg";
 import Stephanie from "../assets/Stephanie.jpg";
 import Divya from "../assets/Divya.jpg"
 import Anuradha from "../assets/Anuradha.jpg"
+import shaun from "../assets/Shaun.jpg"
 
 const ImageSlider = () => {
     const [slidesPerView, setSlidesPerView] = useState(3); // Default value for larger screens
@@ -146,7 +147,19 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Divya</h3>
                                 <span className="post">Dancer</span>
-                                <p>hey say that dancing is the joy of movement and the heart of life. I wholeheartedly agree, which is why I never miss a chance to dance. Growing up in various parts of India rooted me in many Indian art forms. I explored my interest in different dance forms, which my parents loved watching, especially the folk dances, and their encouragement inspired me to keep dancing..</p>
+                                <p>Hey say that dancing is the joy of movement and the heart of life. I wholeheartedly agree, which is why I never miss a chance to dance. Growing up in various parts of India rooted me in many Indian art forms. I explored my interest in different dance forms, which my parents loved watching, especially the folk dances, and their encouragement inspired me to keep dancing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide'>
+                        <div className='inner-slide'>
+                            <img src={shaun} alt="Image 1" />
+                            <div className='team-info'>
+                                <h3 className="title">Shaun</h3>
+                                <span className="post">Videographer</span>
+                                <p>After Serving in the US AirForce, Shaun went to UNCSA where he studied and got his BFA in Filmmaking with a focus on directing. His work has played in festivals across the country and in Europe. Currently, he is based in Austin Texas where he directs, writes, produces and does videography.</p>
                             </div>
                         </div>
                     </div>

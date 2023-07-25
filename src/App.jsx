@@ -1,5 +1,7 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
+
 import './App.css'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -15,18 +17,18 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/services' element={<Services />}></Route>
           <Route path='/contact-us' element={<ContactUS />}></Route>
-          <Route path='/Gallery' element={<Gallery />}></Route>
+          <Route path='/gallery' element={<Gallery />}></Route>
           <Route path='/blogs' element={<Blogs />}></Route>
           <Route path='/testnomials' element={<Testnomials />}></Route>
           {/* <Route path='/portfolio' element={<Portfolio />}></Route> */}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }

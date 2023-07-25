@@ -36,19 +36,23 @@
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
-  padding: 0px 2rem;
+  padding: 0px 1rem;
   padding-top: 1rem;
   /* color: #0096c7; */
 }
 .Appname h1 {
   font-size: 30px;
   font-weight: 900;
+  font-family: "Cormorant Garamond", serif !important;
+  letter-spacing: 2px !important;
   color: white;
 }
 .App_desc span {
   font-size: 12px;
   border-right: 2px solid white;
-  padding: 0.2rem;
+  font-family: "Cormorant Garamond", serif !important;
+  letter-spacing: 2px !important;
+  padding: 0.3rem;
   color: white;
 }
 
@@ -95,7 +99,7 @@
 }
 .icon a {
   font-size: 1.8rem;
-  color: #0096c7;
+  color: white;
   margin: 0.4rem;
 }
 /* Media queries for small and medium screens */

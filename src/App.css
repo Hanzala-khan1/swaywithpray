@@ -14,6 +14,6 @@ body {
 h1,
 h2,
 h3 {
-  font-family: myfont !important;
-  letter-spacing: 5px !important;
+  font-family: "Cormorant Garamond", serif !important;
+  letter-spacing: 4px !important;
 }

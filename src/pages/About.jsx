@@ -2,6 +2,7 @@ import React from 'react'
 import "./css/About.css"
 import aboutImg1 from "../assets/Nabout1.jpg"
 import aboutImg2 from "../assets/Nabout2.jpg"
+import aboutImg3 from "../assets/thirdAbout.jpg"
 // import Navbar from '../component/Nav'
 import { Link } from 'react-router-dom'
 import ImageSlider from '../component/ImagaSlider'
@@ -28,8 +29,10 @@ const About = () => {
                 <h1 className='HeadAbout'>ABOUT PRAY</h1>
                 <div className='aboutIntro'>
                     <div className='ImgDiv'>
+                        <img src={aboutImg3} className='img'></img>
                         <img src={aboutImg1} className='img'></img>
                         <img src={aboutImg2} className='img'></img>
+
                     </div>
                     <div className='paraDiv'>
                         <h2 className='Danceteacher'>Your Favourite Bollywood Dance Teacher in Austin</h2>

@@ -11,7 +11,7 @@ const Home = () => {
     const handleExploreClick = () => {
         Setanimation(true)
         setTimeout(() => {
-            navigate('/About');
+            navigate('/about');
             Setanimation(false)
         }, 2000);
 
@@ -25,7 +25,7 @@ const Home = () => {
                         <h1>SWAY WITH PRAY</h1>
                         <div className='App_desc'>
                             <span>Bollywood Dance</span>
-                            <span>Coreagrapher</span>
+                            <span>Choreographer</span>
                             <span>Educator</span>
                         </div>
                     </div>
