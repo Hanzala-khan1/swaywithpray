@@ -3,13 +3,13 @@
   src: url(./fonts/Halyard\ Display.otf);
 }
 
-body {
-  background-color: #f2efe9;
-  font-family: bodyfont !important;
-}
 @font-face {
   font-family: myfont;
   src: url(./fonts/Quakiez.otf);
+}
+body {
+  background-color: #f2efe9;
+  font-family: bodyfont !important;
 }
 h1,
 h2,

@@ -87,7 +87,7 @@
 
 .innernew img {
   width: 120px; /* Removed quotes from width and height values */
-  height: 170px;
+  height: 140px;
   /* margin-right: 1rem; */
 }
 .subBox {
@@ -121,8 +121,8 @@
   }
 
   .innernew img {
-    width: 100px; /* Removed quotes from width and height values */
-    height: 140px;
+    width: 95px; /* Removed quotes from width and height values */
+    height: 115px;
   }
   .icon a {
     font-size: 1.4rem;
@@ -176,7 +176,7 @@
   }
   .innernew img {
     width: 90px;
-    height: 130px;
+    height: 110px;
   }
   .icon a {
     font-size: 1.3rem;

@@ -92,7 +92,7 @@ const ImageSlider = () => {
                         <div className='inner-slide'>
                             <img src={PREETESH} alt="Image 1" />
                             <div className='team-info'>
-                                <h3 className="title">PREETESH</h3>
+                                <h6 className="title">PREETESH</h6>
                                 <span className="post">Video Editor</span>
                                 <p>
                                     Preetesh Kayanadath has 13 years of experience as a Video editor and Motion graphics artist. He has worked with companies like Brandish media entertainment , IL&FS EDUCATION, Shiamak Davar Institute of Performing Arts. Now has his own Startup media production Mania Studio, Mumbai, and also a part of SWP.

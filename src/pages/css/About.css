@@ -114,10 +114,17 @@
   margin-top: 20px;
   padding: 1rem; /* Add some padding to center the content */
 }
+.team-info h6 {
+  font-weight: 900;
+  font-family: bodyfont !important;
+}
+.team-info span {
+  color: #b86758;
+}
 
 /* Add hover effect */
 .team-info:hover {
-  color: #00adae !important;
+  color: #b86758 !important;
   cursor: pointer;
 }
 @media (min-width: 1100px) {

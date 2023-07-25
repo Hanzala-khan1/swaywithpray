@@ -24,6 +24,7 @@ const ContactUS = () => {
                     </div>
                     <div className="contact-form">
                         <h2>For performance, teaching, or choreography inquiries, please fill out the form below.</h2>
+                        <p style={{ fontSize: "1.3rem" }}>Send us a message and we will get back to you as soon as possible!</p>
                         <form onSubmit={handleSubmit}>
                             <div className='namediv'>
                                 <input type="text" name="firstName" placeholder="First Name" required />
