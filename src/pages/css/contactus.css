@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -46,6 +45,7 @@ body {
 }
 .contact-form h2 {
   margin-bottom: 30px;
+  color: #b86758;
 }
 .contact-form input,
 .contact-form textarea,

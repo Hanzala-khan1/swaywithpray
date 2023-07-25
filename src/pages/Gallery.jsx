@@ -11,9 +11,9 @@ import img6 from "../assets/services1.jpg";
 import img7 from "../assets/special_event.jpg";
 import img8 from "../assets/Ncontact.jpg";
 import img9 from "../assets/firness.jpg";
-import img10 from "../assets/bg2.jpg";
-import img11 from "../assets/bg3.jpg";
-import img12 from "../assets/bg1.jpg";
+import img10 from "../assets/About1.jpg";
+import img11 from "../assets/home.jpg";
+import img12 from "../assets/pray.jpg";
 
 import "./css/gellery.css";
 

@@ -78,10 +78,10 @@ body {
   flex-direction: column;
 }
 .traingle {
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   position: absolute;
-  top: 30%;
+  top: 29.9%;
 }
 .black-svg {
   width: 100%;
@@ -89,13 +89,17 @@ body {
 }
 .bottomtraingle {
   width: 100vw;
-  height: 10vh;
+  height: 70px;
   position: absolute;
-  bottom: 27%;
+  bottom: 21.8%;
 }
 .bottom {
   transform: rotateX(180deg);
-  bottom: 40% !important;
+  /* bottom: 40% !important; */
+}
+.top {
+  width: 100%;
+  overflow: hidden;
 }
 @media (max-width: 1024px) {
   .inner_text h1 {
@@ -108,12 +112,14 @@ body {
     font-size: 1.2rem;
     margin-bottom: 12px;
   }
+  .bottomtraingle {
+    width: 100vw;
+    height: 78px;
+    position: absolute;
+    bottom: 21.4%;
+  }
   .inner_text {
     width: 60%;
-  }
-  .black-svg {
-    width: 100%;
-    height: 90px;
   }
 }
 
@@ -142,9 +148,11 @@ body {
     flex-direction: column;
   }
 
-  .black-svg {
-    width: 100%;
-    height: 90px;
+  .bottomtraingle {
+    width: 100vw;
+    height: 75px;
+    position: absolute;
+    bottom: 22.7%;
   }
 }
 @media (max-width: 500px) {
@@ -170,10 +178,5 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-
-  .black-svg {
-    width: 100%;
-    height: 90px;
   }
 }

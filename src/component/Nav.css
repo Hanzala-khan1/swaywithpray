@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 1px 10px 0px #000;
+  background-color: #b86758;
 }
 
 .navbar-logo img {
@@ -23,20 +24,20 @@
 
 .navbar-menu ul li a {
   text-decoration: none;
-  color: #e84524;
+  color: #fff;
   position: relative;
   font-size: 1.3rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar-menu ul li a:hover {
-  border-bottom: 4px solid #e84524;
+  border-bottom: 4px solid white;
 }
 .navbar-menu ul li.active a {
-  border-bottom: 4px solid #e84524;
+  border-bottom: 4px solid white;
 }
 .navbar-menu ul li.dd-menu.active > a {
-  border-bottom: 4px solid #e84524 !important;
+  border-bottom: 4px solid white !important;
 }
 
 .navbar-menu-button {
@@ -56,12 +57,12 @@
   margin-right: 2rem;
   font-size: 1.5rem;
   opacity: 0.2;
-  color: #e84524;
+  color: white;
 }
 
 .iconsfont:hover {
   opacity: 1;
-  color: #e84524;
+  color: white;
 }
 
 .open {
@@ -70,7 +71,7 @@
   z-index: 9999;
   width: 100%;
   top: 6.5rem;
-  background: #f2efe9;
+  background: #b86758;
   align-items: center;
   justify-content: center;
   left: 0;
@@ -101,7 +102,7 @@
   position: absolute;
   top: 100%;
   left: 35%;
-  background: #f2efe9;
+  background: #b86758;
   padding: 10px;
   z-index: 8888888;
   box-shadow: 1px 1px 10px 0px #000;
@@ -130,7 +131,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 780px) {
   .navbar-menu-button {
     display: none;
   }
