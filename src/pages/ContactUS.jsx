@@ -23,7 +23,7 @@ const ContactUS = () => {
                         <img src={contact} alt="Contact Image" />
                     </div>
                     <div className="contact-form">
-                        <h2>Send us a message and we will get back to you as soon as possible!</h2>
+                        <h2 className='Danceteacher'>Send us a message and we will get back to you as soon as possible!</h2>
                         <form onSubmit={handleSubmit}>
                             <div className='namediv'>
                                 <input type="text" name="firstName" placeholder="First Name" required />

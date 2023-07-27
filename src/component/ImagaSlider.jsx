@@ -59,7 +59,11 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Stephanie</h3>
                                 <span className="post">Dancer and Instructor</span>
-                                <p>Stephanie started her dance background in Corpus Christi, Texas where she studied Ballet, Jazz, Folklorico and Classical Flamenco for 10 years. When she settled into Austin, she danced with Aztlan Dance Company for 10 years a Latin Contemporary group. She then went on to A'lante Flamenco where she delved into Flamenco for another 10 years, all while teaching a Salsa Aerobics class with Esquina Tango for 16 years. Now she is  having a blast with Bollywood and loving it!</p>
+                                <p>Stephanie started her dance journey by learning ballet, jazz, folklorico and classical flamenco
+                                    for 10 years. She danced with Aztlan Dance Company, a Latin Contemporary group, then went
+                                    on to A'lante Flamenco and delved into flamenco for another 10 years, all while teaching salsa
+                                    aerobics classes at Esquina Tango for 16 yrs. Now she is having a blast teaching and dancing
+                                    Bollywood!s</p>
                             </div>
                         </div>
                     </div>
@@ -71,7 +75,11 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">ERIN</h3>
                                 <span className="post">Fitness Instructor</span>
-                                <p>Erin dance journey started to the beat of west African drums and segued into Native American rhythms; then she explored flamenco and tango, while also flirting with salsa and swing. So it was only natural that when she met Bollywood it was love at first sight. She loves to teach Bollywood fitness as it is a complete cardio and toning workout in a fun and supportive environment </p>
+                                <p>Erin’s dance journey started to the beat of West African drums and segued into Native American
+                                    rhythms; then flamenco and tango, while flirting with salsa and swing. It was only natural that
+                                    when she met Bollywood — it was love at first beat! She loves teaching Bollywood fitness in a
+                                    supportive environment.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +91,10 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">TRISHA</h3>
                                 <span className="post">Dancer</span>
-                                <p>Trisha is a software engineer by profession and dancer at heart. Her hobbies include traveling, cooking, and now gardening too. Some days she likes to party and some days she loves spending time by myself. Dancing brings her joy and makes her feel alive. </p>
+                                <p>Trisha is a software engineer by profession and dancer at heart. Her hobbies include traveling,
+                                    cooking, and gardening. Some days she likes to party, while others she loves spending time
+                                    with herself. Dancing brings her joy and makes her feel alive!
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +107,10 @@ const ImageSlider = () => {
                                 <h6 className="title">PREETESH</h6>
                                 <span className="post">Video Editor</span>
                                 <p>
-                                    Preetesh Kayanadath has 13 years of experience as a Video editor and Motion graphics artist. He has worked with companies like Brandish media entertainment , IL&FS EDUCATION, Shiamak Davar Institute of Performing Arts. Now has his own Startup media production Mania Studio, Mumbai, and also a part of SWP.
+                                    Preetesh Kayanadath has 13 years of experience as a video editor and motion graphics artist.
+                                    He has worked with companies like Brandish Media Entertainment, IL&FS EDUCATION, and
+                                    Shiamak Davar Institute of Performing Arts. His media production company is called Mania
+                                    Studio, Mumbai, and he is also a part of SWP.
                                 </p>
                             </div>
                         </div>
@@ -110,7 +124,8 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Laasya</h3>
                                 <span className="post">Dancer</span>
-                                <p>Laasya loves pink, flowers, social activities, and of course  dancing. She is always happy and having fun if she is on the dance floor!
+                                <p>Laasya loves pink, flowers, social activities, and, of course, dancing! She is always happy and
+                                    having fun if she is on the dance floor
                                 </p>
                             </div>
                         </div>
@@ -123,7 +138,10 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Julie</h3>
                                 <span className="post">Dancer</span>
-                                <p>By day Julie is a software developer for Veterans Affairs, enjoying the opportunity to support our Veterans. By night and weekend, she likes to hear some great music and move around to it with a smile, and maybe some glitter.s She has danced Tango, Flamenco, Tahitian Hula, Zapateado, Cumbia, Samba and now Bollywood. Twenty years ago after she heard Kuch Kuch Hota Hai she fell in love with Bollywood music.</p>
+                                <p>By day Julie is a software developer for Veterans Affairs,and at night you can find her dancing
+                                    with glitter! She has danced tango, flamenco, Tahitian hula, zapateado, cumbia, samba and now
+                                    Bollywood. She fell in love with Bollywood music twenty years ago after listening to “Kuch Kuch
+                                    Hota Hai”.</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +153,9 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Anuradha</h3>
                                 <span className="post">Dancer</span>
-                                <p>Anuradha works on technical problems by day, but would prefer to spend most of it learning and creating art forms. Aside from SWP, she studies Kathak dance and the Indian classical arts as both a practitioner and amateur historian.</p>
+                                <p>Anuradha works on technical problems by day, but would prefer to spend most of it
+                                    learning and creating art forms. Aside from SWP, she studies Kathak dance and the
+                                    Indian classical arts as both a practitioner and amateur historian</p>
                             </div>
                         </div>
                     </div>
@@ -147,7 +167,11 @@ const ImageSlider = () => {
                             <div className='team-info'>
                                 <h3 className="title">Divya</h3>
                                 <span className="post">Dancer</span>
-                                <p>Hey say that dancing is the joy of movement and the heart of life. I wholeheartedly agree, which is why I never miss a chance to dance. Growing up in various parts of India rooted me in many Indian art forms. I explored my interest in different dance forms, which my parents loved watching, especially the folk dances, and their encouragement inspired me to keep dancing.</p>
+                                <p>They say that dancing is the joy of movement and the heart of life. I wholeheartedly
+                                    agree, which is why I never miss a chance to dance. Growing up in various parts of
+                                    India rooted me in many Indian art forms. I explored my interest in different dance
+                                    forms, which my parents loved watching, especially the folk dances, and their
+                                    encouragement inspired me to keep dancing.</p>
                             </div>
                         </div>
                     </div>
